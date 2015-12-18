@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>a8cd3</title>
+ </head>
+ <body>
+ </body>
+ <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+ <script type="text/javascript">
+	 
+d3.select("body").append("div"); 
+d3.select("div").append("svg").attr("width",500).attr("height",500);
+	
+var svg = d3.select("svg");
+
+svg.append("circle")
+	.attr("cx", 250)
+	.attr("cy", 250)
+	.attr("r",150)
+	.style("fill", "steelblue");
+	
+svg.append("circle")
+	.attr("cx", 250)
+	.attr("cy", 250)
+	.attr("r", 110)
+	.style("fill", "white");
+	
+svg.append("circle")
+	.attr("cx", 200)
+	.attr("cy", 300)
+	.attr("r", 20);
+	
+
+svg.append("circle")
+	.attr("cx", 300)
+	.attr("cy", 200)
+	.attr("r", 20);
+	
+svg.append("rect")
+	.attr("width", 150)
+	.attr("height", 40)
+	.attr("transform","translate (319.5, 209) rotate(135)");
+	
+ </script>
+ </script>
+</html>
